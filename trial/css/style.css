@@ -1,0 +1,206 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+::placeholder {
+	color: #bfbfbf;
+	font-size: 18px;
+}
+input:focus {
+	outline: none;
+	border-bottom-width: 1.5px;
+	border-bottom-color: white;
+}
+.bg {
+    background-image: url("https://github.com/Himanshu8787/Axisvation.github.io/blob/main/trial/images/bg3.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.main {
+	width: 400px;
+	height: 500px;
+	background: black;
+	opacity: 0.2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -250px 0px 0px -200px;
+}
+.welcome {
+	width: 200px;
+	height: 50px;
+	font-family: Trebuchet MS;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 43%;
+	top: 20%;
+}
+.Customerdetails {
+	width: 150px;
+	height: 50px;
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	color: white;
+	position: relative;
+	left: 40%;
+	top: 20%;
+}
+.credentials {
+	color: white;
+	position: absolute;
+	left: 42%;
+	top: 40%;
+	font-size: 20px;
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 1px;
+	border-bottom-color: #76ecc5;
+}
+#psswrd {
+	top: 49%;
+}
+#phoneno{
+	top:24%;
+}
+.number{
+	color: white;
+	position: absolute;
+	left: 42%;
+	top: 40%;
+	font-size: 20px;
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 1px;
+	border-bottom-color: #76ecc5;
+}
+.logo {
+    width: 350px;
+	height: 100px;
+	position: absolute;
+	left: 37.2%;
+}
+.loginbutton {
+	position: absolute;
+	left: 48%;
+	top: 60%;
+	font-size: 16px;
+	color: white;
+	background-color: #42648a;
+	padding: 6px 12px 6px 12px;
+    border: 0;
+	border-radius: 4px;
+}
+.languagebutton {
+	position: absolute;
+	left: 58%;
+	top: 80%;
+	font-size: 16px;
+	color: white;
+	background-color: #f5707b;
+	padding: 6px 12px 6px 12px;
+    border: 0;
+	border-radius: 4px;
+}
+.OTP{
+	position: absolute;
+	left: 48%;
+	top: 60%;
+	font-size: 16px;
+	color: white;
+	background-color: #42648a;
+	padding: 6px 12px 6px 12px;
+    border: 0;
+	border-radius: 4px;
+}
+.biggermain{
+	width: 500px;
+	height: 500px;
+	background: black;
+	opacity: 0.2;
+	position: absolute;
+	left: 47%;
+	top: 50%;
+	margin: -250px 0px 0px -200px;
+}
+/* .custdetails{ */
+	/* color: rgb(137, 194, 154); */
+	/* position: absolute;
+	left: 42%;
+	top: 40%;
+	font-size: 20px;
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 1px;
+	border-bottom-color: #76ecc5;
+} */
+input[type=text], select {
+	width: 50%;
+	flex-direction: row;
+    align-items: stretch;
+	padding: 12px 20px;
+    margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+.center {
+	text-align: center;  
+	border: 7px;  
+	width: 300px;  
+	height: 200px;  
+	align-items: center;
+    font-size: 25px;  
+    margin: auto;  
+	padding: 10%;
+    align-items: center;
+    justify-content: center; 
+  }
+.next{
+	position: absolute;
+	left: 58%;
+	top: 80%;
+	font-size: 16px;
+	color: rgb(37, 50, 110);
+	padding: 6px 12px 6px 12px;
+    border: 0;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+}
+button:hover {
+	background-color: #3a5778;
+	cursor: pointer;
+}
+button:active {
+	background-color: #9db6d3;
+}
+button:focus {
+	outline: none;
+}
+b:hover {
+    text-decoration: underline;
+	text-decoration-color: color=#648ab4;
+	cursor: pointer;
+}
