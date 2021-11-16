@@ -12,7 +12,7 @@ input:focus {
 	border-bottom-color: white;
 }
 .bg {
-    background-image: url("https://github.com/Himanshu8787/Axisvation/blob/main/trial/images/bg3.jpg");
+    background-image: url("trial/images/bg3.jpg");
     height: 100%;
     background-position: center;
     background-size: cover;
