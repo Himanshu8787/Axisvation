@@ -227,3 +227,15 @@ b:hover {
     border: 0;
 	border-radius: 4px;
 }
+
+.subbutton {
+	position: absolute;
+	left: 48%;
+	top: 60%;
+	font-size: 16px;
+	color: white;
+	background-color: #42648a;
+	padding: 6px 12px 6px 12px;
+    border: 0;
+	border-radius: 4px;
+}
